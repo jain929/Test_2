@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36505809500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Step_defination_class.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1058619900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Step_defination_class.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1867701700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"lalitha\" and  \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Step_defination_class.user_enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed Login Successful",
+            "match": {
+              "location": "Step_defination_class.message_displayed_Login_Successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16547702200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Step_defination_class.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2121896000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Step_defination_class.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1306838300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and  \"password456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password456\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_defination_class.user_enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed Login Successful",
+            "match": {
+              "location": "Step_defination_class.message_displayed_Login_Successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Test_1_feature/test_1_feature_file.feature",
+    "tags": []
+  }
+]
